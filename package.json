@@ -1,0 +1,19 @@
+{
+  "name": "photostudio-web",
+  "version": "1.0.0",
+  "description": "A Photoshop-like image editor that runs in the browser",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "icons": "node scripts/gen-icons.mjs"
+  },
+  "devDependencies": {
+    "vite": "^6.4.4"
+  },
+  "dependencies": {
+    "lucide": "^1.55.0"
+  }
+}
